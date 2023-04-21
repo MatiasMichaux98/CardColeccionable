@@ -1,0 +1,76 @@
+:root{
+  --color1: red;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+body {
+  background-image: url(../img/p.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 1px;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -50px;
+}
+
+.Card {
+  background-color: yellow;
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 20px rgb(255, 71, 10);
+  border-color: rgb(255, 115, 0) rgb(234, 255, 0);
+  border-width: 2px 10px 5px;
+  border-style: solid dotted solid;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+.Card-header {
+  width: 100%;
+  display: block;
+  height: 100px;
+
+  
+}
+.Card-body {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.Card-body-contenting {
+  border: 5px solid #545454;
+  border-radius: 50%;
+  width: 220px;
+  background-color: #b9babb;
+  box-shadow: 0px, -10px, 20px purple;
+}
+.Card-body-contenting-img {
+  padding: 20px;
+}
+.Card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+.Card-footer-poder {
+  text-align: center;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=estilo.css.map */

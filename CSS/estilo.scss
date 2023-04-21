@@ -1,0 +1,59 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before,*:after {
+    box-sizing: inherit;
+}  
+
+body{
+ background-color: rgb(255, 0, 149);
+ height: 100%;
+ width: 100vh;
+  
+}
+.contenido{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: calc(-50px -8px);
+  margin-bottom: calc(-50px -8px);
+}
+
+.Card{
+  background-color: white;
+  overflow: hidden;
+  width: 328px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 15px rgb(255, 0, 149);
+
+
+  &-body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-contenting{
+      border: 5px solid blue;
+      border-radius: 50%;
+      width: 220px;
+      background-color: red;
+      box-shadow: 0px,-10px,20px purple;
+      &-img{
+        padding: 20px;
+        
+      }
+
+    }
+  }
+  &-footer{
+    display: flex;
+    justify-content: space-around;
+    &-poder{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}
